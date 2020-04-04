@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script
+src="https://code.jquery.com/jquery-2.1.4.min.js"
+></script>
+  <script type="text/javascript" src="main.js">
+  </script>
+
+</head>
+
+<body>
+
+  <figure class="graphic">
+    <div class="interactive" id="heede_interactive">
+      <h3 class="int_hed graphic__header" id="heede_hed">Carbon dioxide emissions from Carbon Majors</h3>
+      <p class="int_dek" id="heede_dek"> Heede's research shows that nearly two-thirds of anthropogenic carbon emissions originated in just 90 companies and government-run industries. Among them, the top eight companies -- ranked according to annual
+        and cumulative emissions below -- account for 20 percent of world carbon emissions from fossil fuels and cement production since the Industrial Revolution. Click on the "play" button to play through the animated graphics. To view a specific
+        year, pause the animation and hover over the individual charts (or tap on the charts if you are using a mobile device).</p>
+      <div class="int_wrapper graphic__body" id="heede_wrapper">
+        <div class="col_left" id="col_left">
+          <div class="int_intro" id="int_intro">
+            <div class="int_button" id="play"><img src="https://subscriptions.sciencemag.org/article-resources/placeholder-heede/play.png" /></div>
+            <div class="clock" id="clock">
+              <div class="clock_label">Year</div>
+              <div class="clock_value" id="clock_value">2013</div>
+            </div>
+          </div>
+          <div class="overview" id="overview">
+            <div class="overview_hed" id="overview_hed">
+              <h4>Cumulative Emissions Overview</h4> (million metric tons of CO2)
+            </div>
+            <div class="overview_chart" id="overview_chart">
+              <div class="overview_key" id="overview_key"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col_right" id="col_right">
+          <div class="subhead" id="subhead">
+            <div class="category">
+              <h4>Annual Emissions</h4> (million metric tons of CO2)
+            </div>
+            <div class="category">
+              <h4>Cumulative Impact</h4> (% of world emissions)
+            </div>
+          </div>
+          <div class="charts" id="charts">
+          </div>
+        </div>
+      </div>
+      <p class="credit" id="int_credit">(Graphic) J. You/<em>Science</em>; (Data Source) Richard Heede</p>
+    </div>
+  </figure>
+
+
+</body>
+
+
+</html>
