@@ -11,6 +11,7 @@ html {
   /* margin: 0; */
   height:auto;
   background-color: #E0E0E0;
+  position: relative;
 }
 
 
@@ -27,11 +28,11 @@ html {
 .layers,
 .bkg_img{
 
-
   position: absolute;
-  top: -40px;
-  left:15px;
-
+  top:0px;
+  left:0px;
+padding-left: 15px;
+padding-right: 15px;
   overflow: hidden;
   max-width: 100%;
 height:auto;
