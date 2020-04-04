@@ -27,12 +27,16 @@ html {
   height: auto;
   display: block;
 }
-
+  .card{
+     z-index: 1000000;
+    }
 .btn-link {
     width: 100%;}
 
 
-.brain_img,
+.brain_img{
+   opacity: 1;
+}
 .eyes_img,
 .nose_img,
 .lungs_img,
