@@ -28,6 +28,9 @@ html {
   display: block;
 }
 
+.btn-link {
+    width: 100%;}
+
 
 .brain_img,
 .eyes_img,
