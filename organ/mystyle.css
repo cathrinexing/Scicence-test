@@ -1,16 +1,16 @@
 html {
   font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-sereif !important;
 }
+.body{
 
-.card-header {
-  text-align: center;
 }
 
 .container {
   /* text-align: left;
     margin: 0; */
-  /* max-width: 700px; */
+  max-width: 700px;
 
+   /* margin: 0 !important; */
   height:auto;
   background-color: #E0E0E0;
   position: relative;
@@ -24,7 +24,7 @@ html {
   max-width: 100%;
     height:auto;
 /* min-height: 500px; */
-    /* background-image: url('img/body.jpg'); */
+   /* background-image: url('img/body.jpg'); */
 }
 
 .layers,
@@ -70,6 +70,9 @@ height:auto;
 } */
 .card {
   z-index: 50;
+}
+.card-header {
+  text-align: center;
 }
 
 .btn-link {
