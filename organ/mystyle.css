@@ -7,8 +7,10 @@ html {
 }
 
 .container {
-  max-width: 700px;
-  /* margin: 0; */
+  /* text-align: left;
+    margin: 0; */
+  /* max-width: 700px; */
+
   height:auto;
   background-color: #E0E0E0;
   position: relative;
