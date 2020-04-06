@@ -5,32 +5,29 @@ html {
  padding-top: 0 !important;
 }
 
-.container {
-  /* text-align: left;
-    margin: 0; */
-  /* max-width: 700px;
+.section_organ {
 
 
-  height:700px;
-  background-color: #E0E0E0;
-  position: relative; */
+
 }
 
-.row{
+#row_graphic{
+
   max-width: 700px;
 
    /* margin: 0 !important; */
-  height:600px;
+  /* height:600px; */
   background-color: #E0E0E0;
   position: relative;
 }
 
-.graphics {
+#graphic_individuals_left {
   /* background-color: pink; */
   /* overflow: hidden; */
   max-width: 100%;
-    height:auto;
-/* min-height: 500px; */
+    /* height:auto;
+min-height: 600px; */
+/* height: 700px; */
    /* background-image: url('img/body.jpg'); */
 }
 
@@ -58,12 +55,6 @@ height:auto;
 height:auto;
   display: block;
 }
-/* .graphics::before,
-.graphics::after{
-     content: "";
-     display: block;
-     clear: both;
-} */
 
 
 

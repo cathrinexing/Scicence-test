@@ -550,11 +550,7 @@ a {
   padding: 15px
 }
 
-.box--standout>:first-child, .box-standout>:first-child {
-  margin-top: 0
-}
-
-.box--standout:first-child, .box-standout:first-child {
+.box--standout:first-child, .box--standout>:first-child, .box-standout:first-child, .box-standout>:first-child {
   margin-top: 0
 }
 
@@ -734,18 +730,21 @@ a {
 
 @media (min-width:56.25rem) {
   .container+.container {
-    padding-top: 15px
-  }
-}
-
-@media (min-width:56.25rem) {
-  .container+.container {
+    padding-top: 15px;
     padding-top: 30px
   }
 }
 
 .container+.container[role=main] {
   padding-top: 0
+}
+
+.main-home .row .container {
+  border-top: 1px solid #e6e6e6
+}
+
+.main-home .row.row--hero+.row .container, .main-home .row.row--hero .container {
+  border-top: 0
 }
 
 @media (min-width:48rem) {
@@ -1732,11 +1731,7 @@ a {
   cursor: pointer
 }
 
-.carousel--nodes:hover .carousel--nodes__next, .carousel--nodes:hover .carousel--nodes__prev {
-  opacity: .8
-}
-
-.carousel--nodes:hover .carousel--nodes__next:hover, .carousel--nodes:hover .carousel--nodes__prev:hover {
+.carousel--nodes:hover .carousel--nodes__next, .carousel--nodes:hover .carousel--nodes__next:hover, .carousel--nodes:hover .carousel--nodes__prev, .carousel--nodes:hover .carousel--nodes__prev:hover {
   opacity: .8
 }
 
@@ -2486,11 +2481,7 @@ body {
     padding: .4em 18px .3em
   }
 
-  .gh__nav-search .gh__nav-link:hover {
-    background: #333
-  }
-
-  .gh__nav-search .gh__nav-link:focus {
+  .gh__nav-search .gh__nav-link:focus, .gh__nav-search .gh__nav-link:hover {
     background: #333
   }
 
@@ -2818,11 +2809,7 @@ body {
   background: #444
 }
 
-.gh__nav-subitem.ally-focus-within:focus {
-  background: #666
-}
-
-.gh__nav-subitem a:focus {
+.gh__nav-subitem.ally-focus-within:focus, .gh__nav-subitem a:focus {
   background: #666
 }
 
@@ -2851,11 +2838,7 @@ body {
   font-weight: 400
 }
 
-.gh-search-btn:hover {
-  color: #ccc
-}
-
-.gh-search-btn:focus {
+.gh-search-btn:focus, .gh-search-btn:hover {
   color: #ccc
 }
 
