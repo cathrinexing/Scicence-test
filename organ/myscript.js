@@ -89,9 +89,31 @@ $(".layers").css("opacity", "0");
 
   });
 
-var h = $('#graphic_individuals_left').height();
-  console.log(h);
+// var h = $('#graphic_individuals_left').height();
+//   console.log(h);
+//   $('#row_graphic').height(h);
 
-  $('#row_graphic').height(h);
+
+
 
 });
+
+
+function displayWindowSize(){
+     // Get width and height of the window excluding scrollbars
+     var h = $('#graphic_individuals_left').height();
+       console.log(h);
+     // var w = document.documentElement.clientWidth;
+
+
+     // Display result inside a div element
+     document.getElementById("result").innerHTML = "Width: " + "w" + ", " + "Height: " + h;
+ }
+
+ // Attaching the event listener function to window's resize event
+ window.addEventListener("resize", displayWindowSize);
+
+ // Calling the function for the first time
+ displayWindowSize();
+
+ $('#row_graphic').height(h);
