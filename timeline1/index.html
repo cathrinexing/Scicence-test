@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Timeline | Basic demo</title>
+
+  <style type="text/css">
+    body, html {
+      font-family: sans-serif;
+    }
+  </style>
+
+  <!-- <script src="https://visjs.github.io/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+  <link href="https://visjs.github.io/vis-timeline/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" /> -->
+  <!-- <link rel="stylesheet" href="master-cccc.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Robot
+  o:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+  <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+<p>
+  A scrollable timeline. You can move the timeline by scroll the slidering, and  select items.
+</p>
+
+
+<div id="timeline">
+  <div id="visualization"></div>
+
+</div>
+<!-- <div id="visualization"></div> -->
+
+<script type="text/javascript">
+  // DOM element where the Timeline will be attached
+  // var container = document.getElementById('visualization');
+
+  // Create a DataSet (allows two way data-binding)
+  var items = new vis.DataSet([
+    {id: 'A', content: '', start: '2014-01-16', end: '2016-01-22', type: 'background', className: 'period'},
+    {id: 'B', content: "<h1>1/2014-1/2016</h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip PageMaker including versions of Lorem Ipsum.", start: '2015-01-25', className: 'period'},
+    // {id: 'B', content: 'Period B', start: '2015-01-25', type: 'point', className: 'dot'},
+    {id: 1, content: "<h1>4/20/2000</h1> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip PageMaker including versions of Lorem Ipsum.", start: '2000-04-20'},
+    {id: 2, content: " <h1>2005</h1>five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ips", start: '2005'},
+    {id: 3, content: '<h1>2012</h1>e centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 196', start: '2012'},
+    // {id: 4, content: 'em Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ip PageMaker including versions of Lorem Ipsu', start: '2014-04-16', end: '2014-12-19'},
+    {id: 5, content: '<h1>04/2014</h1>ie centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1965', start: '2014-04'},
+
+
+    // {id: 6, content: 'item 6e centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 196', start: '2015-12', type: 'point'}
+  ]);
+
+  // Configuration for the Timeline
+
+  var container = document.getElementById('visualization');
+
+    var options = {
+      // start: 'null',
+      // end: 'null',
+      // min: "1/6/1900",
+      // max: "6/1/2030",
+     start: "6/6/1998",
+     end: "6/6/2017"
+
+    };
+
+
+  // Create a Timeline
+  var timeline = new vis.Timeline(container, items, options);
+</script>
+</body>
+</html>
