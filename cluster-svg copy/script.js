@@ -195,7 +195,7 @@ function init() {
     // step.style.height = '500px';
     if (window.innerWidth > 780) {
  step.style.height = '500px';
-} else { step.style.height = '300px';
+} else { step.style.height = '500px';
     }
 
     console.log(window.innerWidth);
@@ -207,7 +207,7 @@ function init() {
   scroller.setup({
       step: '.scroll__text .step',
       debug: true,
-      offset: 0.7,
+      offset: 0.8,
       // progress: true,
     })
     .onStepEnter(handleStepEnter)
