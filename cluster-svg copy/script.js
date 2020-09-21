@@ -195,7 +195,7 @@ function init() {
     // step.style.height = '500px';
     if (window.innerWidth > 780) {
  step.style.height = '500px';
-} else { step.style.height = '400px';
+} else { step.style.height = '300px';
     }
 
     console.log(window.innerWidth);
