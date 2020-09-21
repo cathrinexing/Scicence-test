@@ -1,0 +1,140 @@
+#scroll {
+  position: relative;
+}
+
+.scroll__text {
+  position: relative;
+  padding: 0 1rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+
+.step {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  margin: 2rem auto 4rem auto;
+
+  /* border: 1px solid #333; */
+  opacity: 0;
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+}
+.step:last-child {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 2rem auto 4rem auto;
+
+  border: 5px solid #333;
+  opacity: 0;
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+}
+
+
+.step.is-active {
+  opacity: 1;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  /* background-color: lightgoldenrodyellow; */
+}
+
+.step p {
+  text-align: left;
+  /* padding: 1rem; */
+  padding: 2rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+ margin: auto;
+
+
+}
+
+
+
+main#container {
+  position: relative;
+  /* background-image: url("test.gif"); */
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+#sticky {
+  position: -webkit-sticky;
+  position: sticky !important;
+  top: 25%;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+20%{opacity:0.2;}
+40%{opacity:0.4;}
+60%{opacity:0.6;}
+80%{opacity:0.8;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+20%{opacity:0.2;}
+40%{opacity:0.4;}
+60%{opacity:0.6;}
+80%{opacity:0.8;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+20%{opacity:0.2;}
+40%{opacity:0.4;}
+60%{opacity:0.6;}
+80%{opacity:0.8;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+120%{opacity:0.2;}
+40%{opacity:0.4;}
+60%{opacity:0.6;}
+80%{opacity:0.8;}
+00% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+20%{opacity:0.2;}
+40%{opacity:0.4;}
+60%{opacity:0.6;}
+80%{opacity:0.8;}
+100% {opacity:1;}
+}
+
+@keyframes fadeOut {
+0% {opacity:1;}
+20%{opacity:0.8;}
+40%{opacity:0.6;}
+60%{opacity:0.4;}
+80%{opacity:0.2;}
+100% {opacity:0;}
+}
+
+/* Xing's code *//* Xing's code *//* Xing's code */
+/* Xing's code *//* Xing's code *//* Xing's code */
+/* Xing's code *//* Xing's code *//* Xing's code */
+/* Xing's code *//* Xing's code *//* Xing's code */
+
+
+/* .svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.svg-content {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+} */
