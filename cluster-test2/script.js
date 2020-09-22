@@ -92,7 +92,9 @@ function handleResize() {
   step.style("height", stepH + "px");
 
   var figureHeight = window.innerHeight / 2;
-  var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+  // var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+ var figureMarginTop = 0;
+
 
   figure
     .style("height", figureHeight + "px")
@@ -151,7 +153,11 @@ function handleStepProgress(response) {
 
 
 
-
+// setTimeout(function() {
+//     setInterval(function() {
+//         $('img').attr('src',$('img').attr('src'))
+//     },1)
+// }, 2000)
 
 
 function setupStickyfill() {

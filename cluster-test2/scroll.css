@@ -126,7 +126,7 @@ animation: fadeOut ease 1s;
 }
 
 .step:last-child {
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 
 .step.is-active {
