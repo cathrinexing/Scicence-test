@@ -139,7 +139,7 @@ animation: fadeOut ease 1s;
 }
 
 .step p {
-  text-align: center;
+     text-align: left;
   padding: 1rem;
   font-size: 1.5rem;
 }
@@ -149,7 +149,8 @@ animation: fadeOut ease 1s;
 
 .scroll-text{
   font-size: 14px !important;
-  background-color: rgba(0, 0,0, .25)
+
+  background-color: rgba(255,255,255, .5)
 
 }
 
@@ -246,4 +247,8 @@ opacity: 1;
 60%{opacity:0.4;}
 80%{opacity:0.2;}
 100% {opacity:0;}
+}
+
+.scrollama__debug-offset{
+  display: none;
 }
