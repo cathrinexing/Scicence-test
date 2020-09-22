@@ -86,7 +86,7 @@
 
     focus.append("text").attr("class", "lineHoverDate")
       // .attr("text-anchor", "middle")
-      .attr("font-size", 12)
+      .attr("font-size", 14)
       .attr('font-weight', '700')
       .attr('z-index', "9999999");
 
@@ -202,7 +202,7 @@ function resize(){
         // .style("fill", d => z(d))
         // .style("background-color", "black")
         .attr("text-anchor", "start")
-        .attr("font-size", 12)
+        .attr("font-size", 14)
         .attr("dy", (_, i) => 1 + i * 2 + "em")
 
         .merge(labels);
@@ -257,7 +257,7 @@ function resize(){
 
         focus.selectAll(".rectbkg")
           .attr("transform",
-            "translate(" + (x(d.date)) + "," + height / 5 + ")")
+            "translate(" + (x(d.date)) + "," + height / 3 + ")")
           .attr('display', 'block')
 
         focus.selectAll(".lineHoverText")
@@ -291,10 +291,10 @@ function resize(){
         x(d.date) > (width - width / 3) ?
           focus.selectAll(".rectbkg")
           .attr("transform",
-            "translate(" + (x(d.date) - 140) + "," + height / 5 + ")") :
+            "translate(" + (x(d.date) - 140) + "," + (height /3 -40) + ")") :
           focus.selectAll(".rectbkg")
           .attr("transform",
-            "translate(" + (x(d.date)) + "," + height / 5 + ")");
+            "translate(" + (x(d.date)) + "," +(height /3 -40) + ")");
 
 
       }
