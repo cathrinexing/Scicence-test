@@ -57,6 +57,11 @@ body {
 	width:100%;
 	/* max-width: 700px; */
 }
+
+
+.tick text{
+	font-size: 14px
+}
 /* .svg-container {
 	display: inline-block;
 	position: relative;
