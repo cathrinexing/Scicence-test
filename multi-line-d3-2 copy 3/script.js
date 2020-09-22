@@ -187,7 +187,7 @@ function resize(){
         .attr("x", 0)
         .attr("y", 10)
         .attr("width", 160)
-        .attr("height", 210)
+        .attr("height", 200)
         .attr('class', 'rectbkg')
         .attr('fill', "rgba(0,0,0,0.3)")
         .attr('display', 'none')
@@ -291,7 +291,7 @@ function resize(){
         x(d.date) > (width - width / 3) ?
           focus.selectAll(".rectbkg")
           .attr("transform",
-            "translate(" + (x(d.date) - 140) + "," + (height /3 -40) + ")") :
+            "translate(" + (x(d.date) - 160) + "," + (height /3 -40) + ")") :
           focus.selectAll(".rectbkg")
           .attr("transform",
             "translate(" + (x(d.date)) + "," +(height /3 -40) + ")");
