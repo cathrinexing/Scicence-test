@@ -62,14 +62,13 @@ figure {
   z-index: 0;
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   #scrolly {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /* background-color: #f3f3f3; */
-    /* padding: 1rem; */
+
   }
 
   #scrolly > * {
@@ -87,8 +86,6 @@ figure {
   }
 
 
-
-
   figure {
     position: -webkit-sticky;
     position: sticky;
@@ -97,11 +94,11 @@ figure {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    /* background-color: #8a8a8a; */
+
     z-index: 0;
   }
 
-}
+} */
 
 
 
@@ -141,16 +138,18 @@ animation: fadeOut ease 1s;
 .step p {
      text-align: left;
   padding: 1rem;
-  font-size: 1.5rem;
+  /* font-size: 30px; */
+  /* font-size: 1.5rem; */
 }
 
 
 
 
 .scroll-text{
-  font-size: 14px !important;
-
-  background-color: rgba(255,255,255, .5)
+  font-size: 18px;
+  background-color: rgba(255,255,255,.9);
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0,0,0,.1);
 
 }
 
