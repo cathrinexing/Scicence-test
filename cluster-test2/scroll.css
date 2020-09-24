@@ -105,7 +105,7 @@ figure {
 
 @media only screen and (max-width: 600px) {
 .step:first-child {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 }
