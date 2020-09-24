@@ -8,11 +8,11 @@ var step = article.selectAll(".step");
 var scroller = scrollama();
 
 
-figure.append('img').attr('class', 'step-0').attr('opacity', 0)  .attr("src", "img/" + "step-0" + ".png")
+figure.append('img').attr('class', 'step-0').attr('opacity', 0).attr("src", "img/" + "step-0" + ".png")
 
 
 figure.append('img').attr('class', 'step-1').attr('opacity', 0)
-  .attr("src", "img/" + "step-1" + ".jpg")
+  .attr("src", "img/" + "step-1" + ".png")
 
 
 figure.append('img').attr('class', 'step-2').attr('opacity', 0)
@@ -24,7 +24,7 @@ figure.append('img').attr('class', 'step-3').attr('opacity', 0)
 
 
 figure.append('img').attr('class', 'step-4').attr('opacity', 0)
-  .attr("src", "img/" + "step-4" + ".png")
+  .attr("src", "img/" + "step-4" + ".jpg")
 
 figure.append('img').attr('class', 'step-5').attr('opacity', 0)
   .attr("src", "img/" + "step-5" + ".png")
@@ -32,50 +32,48 @@ figure.append('img').attr('class', 'step-5').attr('opacity', 0)
 figure.append('img').attr('class', 'step-6').attr('opacity', 0)
   .attr("src", "img/" + "step-6" + ".png")
 
-  figure.append('img').attr('class', 'step-7').attr('opacity', 0).attr("src", "img/" + "step-7" + ".png")
+figure.append('img').attr('class', 'step-7').attr('opacity', 0).attr("src", "img/" + "step-7" + ".png")
 
-  figure.append('img').attr('class', 'step-8').attr('opacity', 0).attr("src", "img/" + "step-8" + ".jpg")
+figure.append('img').attr('class', 'step-8').attr('opacity', 0).attr("src", "img/" + "step-8" + ".png")
 
-    figure.append('img').attr('class', 'step-9').attr('opacity', 0).attr("src", "img/" + "step-9" + ".png")
-        figure.append('img').attr('class', 'step-10').attr('opacity', 0).attr("src", "img/" + "step-10" + ".png")
-    figure.append('img').attr('class', 'step-11').attr('opacity', 0).attr("src", "img/" + "step-11" + ".png")
+figure.append('img').attr('class', 'step-9').attr('opacity', 0).attr("src", "img/" + "step-9" + ".png")
+figure.append('img').attr('class', 'step-10').attr('opacity', 0).attr("src", "img/" + "step-10" + ".jpg")
+figure.append('img').attr('class', 'step-11').attr('opacity', 0).attr("src", "img/" + "step-11" + ".gif")
 
-    figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "img/" + "step-12" + ".png")
+figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "img/" + "step-12" + ".png")
 
-    figure.append('img').attr('class', 'step-13').attr('opacity', 0).attr("src", "img/" + "step-13" + ".png")
+figure.append('img').attr('class', 'step-13').attr('opacity', 0).attr("src", "img/" + "step-13" + ".png")
 
-    figure.append('img').attr('class', 'step-14').attr('opacity', 0).attr("src", "img/" + "step-14" + ".png")
+figure.append('img').attr('class', 'step-14').attr('opacity', 0).attr("src", "img/" + "step-14" + ".png")
 
-    figure.append('img').attr('class', 'step-15').attr('opacity', 0).attr("src", "img/" + "step-15" + ".png")
+figure.append('img').attr('class', 'step-15').attr('opacity', 0).attr("src", "img/" + "step-15" + ".png")
 
-    figure.append('img').attr('class', 'step-16').attr('opacity', 0).attr("src", "img/" + "step-16" + ".png")
-    figure.append('img').attr('class', 'step-17').attr('opacity', 0).attr("src", "img/" + "step-17" + ".png")
+figure.append('img').attr('class', 'step-16').attr('opacity', 0).attr("src", "img/" + "step-16" + ".png")
+figure.append('img').attr('class', 'step-17').attr('opacity', 0).attr("src", "img/" + "step-17" + ".png")
 
-    figure.append('img').attr('class', 'step-18').attr('opacity', 0).attr("src", "img/" + "step-18" + ".png")
+figure.append('img').attr('class', 'step-18').attr('opacity', 0).attr("src", "img/" + "step-18" + ".png")
 
-    figure.append('img').attr('class', 'step-19').attr('opacity', 0).attr("src", "img/" + "step-19" + ".png")
-    figure.append('img').attr('class', 'step-20').attr('opacity', 0).attr("src", "img/" + "step-20" + ".png")
+figure.append('img').attr('class', 'step-19').attr('opacity', 0).attr("src", "img/" + "step-19" + ".png")
+figure.append('img').attr('class', 'step-20').attr('opacity', 0).attr("src", "img/" + "step-20" + ".png")
 
-    figure.append('img').attr('class', 'step-21').attr('opacity', 0).attr("src", "img/" + "step-21" + ".jpg")
+figure.append('img').attr('class', 'step-21').attr('opacity', 0).attr("src", "img/" + "step-21" + ".jpg")
 
-    figure.append('img').attr('class', 'step-22').attr('opacity', 0).attr("src", "img/" + "step-22" + ".jpg")
+figure.append('img').attr('class', 'step-22').attr('opacity', 0).attr("src", "img/" + "step-22" + ".jpg")
 
-    figure.append('img').attr('class', 'step-23').attr('opacity', 0).attr("src", "img/" + "step-23" + ".png")
+figure.append('img').attr('class', 'step-23').attr('opacity', 0).attr("src", "img/" + "step-23" + ".png")
 
-    figure.append('img').attr('class', 'step-24').attr('opacity', 0).attr("src", "img/" + "step-24" + ".png")
+figure.append('img').attr('class', 'step-24').attr('opacity', 0).attr("src", "img/" + "step-24" + ".png")
 
-    figure.append('img').attr('class', 'step-25').attr('opacity', 0).attr("src", "img/" + "step-25" + ".png")
+figure.append('img').attr('class', 'step-25').attr('opacity', 0).attr("src", "img/" + "step-25" + ".png")
 
-    figure.append('img').attr('class', 'step-26').attr('opacity', 0).attr("src", "img/" + "step-26" + ".jpg")
-    figure.append('img').attr('class', 'step-27').attr('opacity', 0).attr("src", "img/" + "step-27" + ".png")
+figure.append('img').attr('class', 'step-26').attr('opacity', 0).attr("src", "img/" + "step-26" + ".jpg")
+figure.append('img').attr('class', 'step-27').attr('opacity', 0).attr("src", "img/" + "step-27" + ".png")
 
-    figure.append('img').attr('class', 'step-28').attr('opacity', 0).attr("src", "img/" + "step-28" + ".png")
+figure.append('img').attr('class', 'step-28').attr('opacity', 0).attr("src", "img/" + "step-28" + ".png")
 
-    figure.append('img').attr('class', 'step-29').attr('opacity', 0).attr("src", "img/" + "step-29" + ".png")
-    figure.append('img').attr('class', 'step-30').attr('opacity', 0).attr("src", "img/" + "step-30" + ".png")
- figure.append('img').attr('class', 'step-31').attr('opacity', 0).attr("src", "img/" + "step-31" + ".png")
-
-
+figure.append('img').attr('class', 'step-29').attr('opacity', 0).attr("src", "img/" + "step-29" + ".png")
+figure.append('img').attr('class', 'step-30').attr('opacity', 0).attr("src", "img/" + "step-30" + ".png")
+figure.append('img').attr('class', 'step-31').attr('opacity', 0).attr("src", "img/" + "step-31" + ".png")
 
 
 
@@ -91,9 +89,9 @@ function handleResize() {
   var stepH = Math.floor(window.innerHeight * 0.75);
   step.style("height", stepH + "px");
 
-  var figureHeight = window.innerHeight / 2;
+  var figureHeight = window.innerHeight;
   // var figureMarginTop = (window.innerHeight - figureHeight) / 2;
- var figureMarginTop = 0;
+  var figureMarginTop = 0;
 
 
   figure
@@ -107,9 +105,9 @@ function handleResize() {
 // scrollama event handlers
 function handleStepEnter(response) {
   console.log(response);
-   console.log(response.index, '-------- enter', response.direction);
+  console.log(response.index, '-------- enter', response.direction);
   // response = { element, direction, index }
- response.element.classList.add('is-active');
+  response.element.classList.add('is-active');
 
   // add color to current step only
   // step.classed("is-active", function(d, i) {
@@ -184,7 +182,7 @@ function init() {
       debug: true
     })
     .onStepEnter(handleStepEnter)
-      .onStepExit(handleStepExit)
+    .onStepExit(handleStepExit)
     .onStepProgress(handleStepProgress);
 
   // setup resize event

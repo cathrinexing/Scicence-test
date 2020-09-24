@@ -52,9 +52,12 @@ article {
 figure {
   position: -webkit-sticky;
   position: sticky;
-  left: 0;
-  width: 100%;
-  margin: 0;
+ text-align: center;
+ display: block;
+
+  /* left: 0; */
+/* height: 100%; */
+  margin: auto;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -125,6 +128,10 @@ animation: fadeOut ease 1s;
 -webkit-animation: fadeOut ease 1s;
 }
 
+.step:first-child {
+  margin-top: 400px;
+}
+
 .step:last-child {
   margin-bottom: 100px;
 }
@@ -153,7 +160,7 @@ box-shadow: 0 0 10px rgba(0,0,0,.1);
 
 }
 
-#sticky img {
+#sticky > * {
 
   /* width: 100%;
   text-align: center;
@@ -250,4 +257,8 @@ opacity: 1;
 
 .scrollama__debug-offset{
   display: none;
+}
+
+.imgbase{
+  opacity: 1 !important;
 }
