@@ -105,7 +105,7 @@ figure {
 
 @media only screen and (max-width: 600px) {
 .step:first-child {
-  margin-top: 0px;
+  margin-top: -100px;
 }
 
 }
@@ -134,7 +134,7 @@ animation: fadeOut ease 1s;
 }
 
 .step:first-child {
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 .step:last-child {
