@@ -103,7 +103,12 @@ figure {
 
 } */
 
+@media only screen and (min-width: 600px) {
+.step:first-child {
+  margin-top: 100px;
+}
 
+}
 
 figure p {
   text-align: center;
