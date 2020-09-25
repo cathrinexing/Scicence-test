@@ -2334,8 +2334,8 @@ html {
 .cover_dek {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   text-align: center;
-  /* font-size: 26px; */
-    font-size: 20px;
+  font-size: 26px;
+
   line-height: 1.2;
   margin: 0;
   padding: 0 5%;
@@ -2969,8 +2969,8 @@ section {
     line-height: .9
   }
   .cover_dek {
-    /* font-size: 22px; */
-     font-size: 16px;
+    font-size: 22px;
+     /* font-size: 16px; */
   }
 
   .byline,
@@ -3104,8 +3104,8 @@ position: absolute;
     line-height: .9
   }
   .cover_dek {
-    /* font-size: 26px; */
-    font-size: 18px;
+    font-size: 26px;
+    /* font-size: 18px; */
   }
 
   .byline,
