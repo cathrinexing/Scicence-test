@@ -158,7 +158,7 @@ animation: fadeOut ease 1s;
 }
 
 .step:last-child {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .step.is-active {
