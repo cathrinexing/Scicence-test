@@ -56,25 +56,25 @@ figure.append('img').attr('class', 'step-18').attr('opacity', 0).attr("src", "im
 figure.append('img').attr('class', 'step-19').attr('opacity', 0).attr("src", "img/" + "step-19" + ".png")
 figure.append('img').attr('class', 'step-20').attr('opacity', 0).attr("src", "img/" + "step-20" + ".png")
 
-figure.append('img').attr('class', 'step-21').attr('opacity', 0).attr("src", "img/" + "step-21" + ".jpg")
-
-figure.append('img').attr('class', 'step-22').attr('opacity', 0).attr("src", "img/" + "step-22" + ".jpg")
-
-figure.append('img').attr('class', 'step-23').attr('opacity', 0).attr("src", "img/" + "step-23" + ".png")
-
-figure.append('img').attr('class', 'step-24').attr('opacity', 0).attr("src", "img/" + "step-24" + ".png")
-
-figure.append('img').attr('class', 'step-25').attr('opacity', 0).attr("src", "img/" + "step-25" + ".png")
-
-figure.append('img').attr('class', 'step-26').attr('opacity', 0).attr("src", "img/" + "step-26" + ".jpg")
-figure.append('img').attr('class', 'step-27').attr('opacity', 0).attr("src", "img/" + "step-27" + ".png")
-
-figure.append('img').attr('class', 'step-28').attr('opacity', 0).attr("src", "img/" + "step-28" + ".png")
-
-figure.append('img').attr('class', 'step-29').attr('opacity', 0).attr("src", "img/" + "step-29" + ".png")
-figure.append('img').attr('class', 'step-30').attr('opacity', 0).attr("src", "img/" + "step-30" + ".png")
-figure.append('img').attr('class', 'step-31').attr('opacity', 0).attr("src", "img/" + "step-31" + ".png")
-
+// figure.append('img').attr('class', 'step-21').attr('opacity', 0).attr("src", "img/" + "step-21" + ".jpg")
+//
+// figure.append('img').attr('class', 'step-22').attr('opacity', 0).attr("src", "img/" + "step-22" + ".jpg")
+//
+// figure.append('img').attr('class', 'step-23').attr('opacity', 0).attr("src", "img/" + "step-23" + ".png")
+//
+// figure.append('img').attr('class', 'step-24').attr('opacity', 0).attr("src", "img/" + "step-24" + ".png")
+//
+// figure.append('img').attr('class', 'step-25').attr('opacity', 0).attr("src", "img/" + "step-25" + ".png")
+//
+// figure.append('img').attr('class', 'step-26').attr('opacity', 0).attr("src", "img/" + "step-26" + ".jpg")
+// figure.append('img').attr('class', 'step-27').attr('opacity', 0).attr("src", "img/" + "step-27" + ".png")
+//
+// figure.append('img').attr('class', 'step-28').attr('opacity', 0).attr("src", "img/" + "step-28" + ".png")
+//
+// figure.append('img').attr('class', 'step-29').attr('opacity', 0).attr("src", "img/" + "step-29" + ".png")
+// figure.append('img').attr('class', 'step-30').attr('opacity', 0).attr("src", "img/" + "step-30" + ".png")
+// figure.append('img').attr('class', 'step-31').attr('opacity', 0).attr("src", "img/" + "step-31" + ".png")
+//
 
 
 
