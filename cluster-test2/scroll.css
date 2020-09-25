@@ -45,7 +45,7 @@ figure {
 article {
   position: relative;
   padding: 0;
-  max-width: 20rem;
+  max-width:30rem;
   margin: 0 auto;
 }
 
@@ -107,6 +107,22 @@ figure {
 .step:first-child {
   margin-top: -350px;
 }
+article {
+  position: relative;
+  padding: 0;
+  max-width:20rem;
+  margin: 0 auto;
+}
+.scroll-text{
+  font-size: 14px !important;
+
+}
+
+/* #sticky > * {
+
+width: 100%;
+
+} */
 
 }
 
@@ -158,10 +174,11 @@ animation: fadeOut ease 1s;
 
 
 .scroll-text{
-  font-size: 18px;
-  background-color: rgba(255,255,255,.9);
+  font-size: 16px;
+  background-color: rgba(255,255,255,.7);
+  line-height: 1.5;
 border-radius: 5px;
-box-shadow: 0 0 10px rgba(0,0,0,.1);
+/* box-shadow: 0 0 10px rgba(0,0,0,.1); */
 
 }
 
