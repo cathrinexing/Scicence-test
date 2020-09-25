@@ -40,11 +40,11 @@ figure.append('img').attr('class', 'step-9').attr('opacity', 0).attr("src", "img
 figure.append('img').attr('class', 'step-10').attr('opacity', 0).attr("src", "img/" + "step-10" + ".gif")
 figure.append('img').attr('class', 'step-11').attr('opacity', 0).attr("src", "img/" + "step-11" + ".gif")
 
-figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "img/" + "step-12" + ".png")
+figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "img/" + "step-12" + ".gif")
 
-figure.append('img').attr('class', 'step-13').attr('opacity', 0).attr("src", "img/" + "step-13" + ".png")
+figure.append('img').attr('class', 'step-13').attr('opacity', 0).attr("src", "img/" + "step-13" + ".gif")
 
-figure.append('img').attr('class', 'step-14').attr('opacity', 0).attr("src", "img/" + "step-14" + ".png")
+figure.append('img').attr('class', 'step-14').attr('opacity', 0).attr("src", "img/" + "step-14" + ".gif")
 
 // figure.append('img').attr('class', 'step-15').attr('opacity', 0).attr("src", "img/" + "step-15" + ".png")
 //
