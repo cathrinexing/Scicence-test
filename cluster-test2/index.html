@@ -2,171 +2,175 @@
 <html>
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="Xing Liu">
-<meta name="keywords" content="">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-touch-fullscreen" content="yes">
-<title>Covid Clusters</title>
-<meta property="fb:app_id" content="1478542162442556">
-<meta property="og:type" content="article">
-<meta property="og:url" content="http://vis.sciencemag.org/covid-clusters/">
-<meta property="og:title" content="titletitletitletitletitletitle">
-<meta property="og:description" content="descriptiondescriptiondescriptiondescription
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Xing Liu">
+  <meta name="keywords" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <title>Covid Clusters</title>
+  <meta property="fb:app_id" content="1478542162442556">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://vis.sciencemag.org/covid-clusters/">
+  <meta property="og:title" content="titletitletitletitletitletitle">
+  <meta property="og:description" content="descriptiondescriptiondescriptiondescription
 ">
-<meta property="og:image" content="https://vis.sciencemag.org/covid-clusters/img/Social.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@NewsfromScience">
-<meta name="twitter:site" content="@newsfromscience">
-<meta name="twitter:creator:id" content="17089636">
-<meta name="twitter:site:id" content="17089636">
-<meta name="twitter:url" content="http://vis.sciencemag.org/covid-clusters/">
-<meta name="twitter:title" content="titletitletitletitle">
-<meta name="twitter:description" content="descriptiondescriptiondescriptiondescription">
-<meta name="twitter:image" content="https://vis.sciencemag.org/covid-clusters/img/Social.jpg">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Robot
+  <meta property="og:image" content="https://vis.sciencemag.org/covid-clusters/img/Social.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@NewsfromScience">
+  <meta name="twitter:site" content="@newsfromscience">
+  <meta name="twitter:creator:id" content="17089636">
+  <meta name="twitter:site:id" content="17089636">
+  <meta name="twitter:url" content="http://vis.sciencemag.org/covid-clusters/">
+  <meta name="twitter:title" content="titletitletitletitle">
+  <meta name="twitter:description" content="descriptiondescriptiondescriptiondescription">
+  <meta name="twitter:image" content="https://vis.sciencemag.org/covid-clusters/img/Social.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Robot
 o:300,400,400i,700" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="bootstrap.min.css">
-<link rel="stylesheet" href="scroll.css">
+  <link rel="stylesheet" href="scroll.css">
 
-<link rel="shortcut icon" href="img/favicon.png">
-<link rel="apple-touch-icon-precomposed" href="img/favicon.png" sizes="144x144">
-<script id="adobe_dtm" type="text/javascript" src="//assets.adobedtm.com/926659a1689cc9fca96760b67cca714ae48f0584/satelliteLib-a9d46808a35b7b8034adfab1d8207407222304d5.js"></script>
-<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f2f91059d6f875"></script>
-<script src="//assets.adobedtm.com/926659a1689cc9fca96760b67cca714ae48f0584/satelliteLib-a9d46808a35b7b8034adfab1d8207407222304d5.js"></script>
+  <link rel="shortcut icon" href="img/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicon.png" sizes="144x144">
+  <script id="adobe_dtm" type="text/javascript" src="//assets.adobedtm.com/926659a1689cc9fca96760b67cca714ae48f0584/satelliteLib-a9d46808a35b7b8034adfab1d8207407222304d5.js"></script>
+  <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56f2f91059d6f875"></script>
+  <script src="//assets.adobedtm.com/926659a1689cc9fca96760b67cca714ae48f0584/satelliteLib-a9d46808a35b7b8034adfab1d8207407222304d5.js"></script>
 </head>
 
-  <body>
-    <header id="navbar" role="navigation" class="navbar navbar-default navbar-fixed-top">
-      <div>
-        <a href="//www.sciencemag.org/" class="navbar-brand"><img id="navbarimg" alt="Science" src="img/logo-science.svg"></a>
-      </div>
-      <nav class="minimal-header__nav">
-        <ul class="minimal-header__navlist">
-          <li class="minimal-header__navitem"><a href="//www.sciencemag.org/">Home</a></li>
-          <li class="minimal-header__navitem"><a href="//www.sciencemag.org/news/">News</a></li>
-          <li class="minimal-header__navitem"><a href="//www.sciencemag.org/journals/">Journals</a></li>
-          <li class="minimal-header__navitem"><a href="//www.sciencemag.org/topics/">Topics</a></li>
-          <li class="minimal-header__navitem"><a href="//www.sciencemag.org/careers/">Careers</a></li>
-        </ul>
-      </nav>
+<body>
+  <header id="navbar" role="navigation" class="navbar navbar-default navbar-fixed-top">
+    <div>
+      <a href="//www.sciencemag.org/" class="navbar-brand"><img id="navbarimg" alt="Science" src="img/logo-science.svg"></a>
+    </div>
+    <nav class="minimal-header__nav">
+      <ul class="minimal-header__navlist">
+        <li class="minimal-header__navitem"><a href="//www.sciencemag.org/">Home</a></li>
+        <li class="minimal-header__navitem"><a href="//www.sciencemag.org/news/">News</a></li>
+        <li class="minimal-header__navitem"><a href="//www.sciencemag.org/journals/">Journals</a></li>
+        <li class="minimal-header__navitem"><a href="//www.sciencemag.org/topics/">Topics</a></li>
+        <li class="minimal-header__navitem"><a href="//www.sciencemag.org/careers/">Careers</a></li>
+      </ul>
+    </nav>
 
-      <div class="addthis_inline_share_toolbox_h50m"></div>
-    </header>
-
-
-    <section class="section s1 cover ">
+    <div class="addthis_inline_share_toolbox_h50m"></div>
+  </header>
 
 
+  <section class="section s1 cover ">
 
-<!-- <video width="100%" height="auto" src="video/bkg.mp4" muted autoplay loop playsinline data-pattern=" video/bkg.mp4">
+
+
+    <!-- <video width="100%" height="auto" src="video/bkg.mp4" muted autoplay loop playsinline data-pattern=" video/bkg.mp4">
 </video>
  -->
 
 
-      <div class="cover_content">
+    <div class="cover_content">
 
-        <h1 class=“whitefont”><strong>Covid cluster</strong></h1>
+      <h1 class=“whitefont”><strong>Covid cluster</strong></h1>
 
 
 
-        <p class="byline">By
-          <a href="//www.sciencemag.org/author/paul-voosen" id="link-shadow" target="_blank">author</a>
-        </p>
-        <p class="time">30 August2020</p>
-       <p class="cover_dek">As the coronavirus pandemic picks up speed around the world, scientists are increasingly interested in the phenomenon of disease clusters. They happen everywhere: At bars and barbecues, gyms and factories, schools, ships and churches.</p>
+      <!-- <p class="byline">By
+        <a href="//www.sciencemag.org/author/paul-voosen" id="link-shadow" target="_blank">author</a>
+      </p>
+      <p class="time">30 August2020</p> -->
+      <p class="cover_dek">As the coronavirus pandemic picks up speed around the world, scientists are increasingly interested in the phenomenon of disease clusters. They happen everywhere: At bars and barbecues, gyms and factories, schools, ships
+        and churches.</p>
+      <p class="cover_dek">But why do these clusters occur—and why are they so important?
+        In any infectious disease an infected person can become the source of further infections. The more close contact someone has to an infected person the more likely they are to be infected. How often a pathogen
+        is transmitted determines its reproduction rate R.</p>
 
-           <p class="subhead">But why do these clusters occur—and why are they so important?
-             In any infectious disease an infected person can become the source of further infections. The more close contact someone has to an infected person the more likely they are to be infected. How often a pathogen
-               is transmitted determines its reproduction rate R.</p>
-      </div>
+              <p class="byline">By <a href="http://www.sciencemag.org/author/" target="_blank">Author</a><em class="time">2 October 2020</em></p>
+    </div>
 
-        <!-- <video  class="cover_video opener_video" width="100%" height="auto" src="video/opener-1200.mp4" muted autoplay loop playsinline >
+    <!-- <video  class="cover_video opener_video" width="100%" height="auto" src="video/opener-1200.mp4" muted autoplay loop playsinline >
       </video> -->
-      <!-- <video  class="cover_video opener_video" width="100%" height="auto" src="video/bkg.mp4" muted autoplay loop playsinline >
+    <!-- <video  class="cover_video opener_video" width="100%" height="auto" src="video/bkg.mp4" muted autoplay loop playsinline >
     </video> -->
-    </section>
+  </section>
 
-    <main>
-
-
-
-      <section id="scrolly">
-        <figure id = "sticky">
-          <img class = "imgbase" src="img/step-0.png" alt="">
-          <!-- <p>0</p> -->
-        </figure>
+  <main>
 
 
 
-        <article>
-          <div class='step step-0' data-step='0'>
-
-            <p class="scroll-text step-0">You probably have heard of R by now. It denotes the number of people infected, on average, by a single infected person. If R is 2, the number of cases double in every generation: From 1</p>
-          </div>
-          <div class='step step-1' data-step='1'>
-            <!-- <p>STEP 2</p> -->
-            <p class="scroll-text step-1">to 2
-</p>
-          </div>
-
-          <div class='step step-2' data-step='2'>
-
-            <p class="scroll-text step-2">to 4, to 8 infected people, and so on. </p>
-
-          </div>
-
-          <div class='step step-3' data-step='3'>
-
-            <p class="scroll-text step-3">Real life isn’t that neat</p>
-          </div>
-          <div class='step step-4' data-step='4'>
-
-            <p class="scroll-text step-4">One person may infect four people.</p>
-          </div>
-          <div class='step step-5' data-step='5'>
-            <p class="scroll-text step-5">Two of those may not transmit the disease to anyone else, but one of them transmits it to 21 others  </p>
-          </div>
-          <div class='step step-6' data-step='6'>
-            <p class="scroll-text step-6">Of those 25, some may pass the virus on to one or two people. Many may not pass it on to anyone else. But perhaps one will pass it on 17 others.</p>
-          </div>
-          <div class='step step-7' data-step='7'>
-            <p class="scroll-text step-7">And so on. </p>
-          </div>
-          <div class='step step-8' data-step='8'>
-            <p class="scroll-text step-8">In most infectious diseases, most people infect no-one else and a small percentage of people leads to most of the transmission.</p>
-          </div>
-          <div class='step step-9' data-step='9'>
-            <p class="scroll-text step-9">How strong this pattern is depends on the virus. In the case of SARS-CoV-2 estimates suggest 10% percent of patients may be responsible for 90%of the spread. </p>
-          </div>
-
-          <div class='step step-10' data-step='10'>
-            <p class="scroll-text step-10">Choir practice in March in Washington State: 61 people attended, one was symptomatic. 53 people were infected, three were hospitalized, two died</p>
-          </div>
-          <div class='step step-11' data-step='11'>
-            <p class="scroll-text step-11">Church in Arkansas in March: 92 people attended, pastor and his wife were positive. 35 attendees infected, 3 died, 26 contact of these attendees infected, one died.
-              <br>
-              If a small minority of cases leads to most of the spread, then stopping these cases from transmitting should bring the epidemic under control. But how?
-            </p>
+    <section id="scrolly">
+      <figure id="sticky">
+        <img class="imgbase" src="img/step-0.png" alt="">
+        <!-- <p>0</p> -->
+      </figure>
 
 
-          </div>
-          <div class='step step-12' data-step='12'>
-            <p class="scroll-text step-12">The following pages need to be updated. I will update them once I received new files from Nirja.</p>
-          </div>
-          <div class='step step-13' data-step='13'>
-            <p class="scroll-text step-13">So contact tracers should spend more time understanding where someone was infected and finding other people from the same cluster, health experts say. This is called backward contact tracing, and it could help find more chains of transmission.</p>
-          </div>
-          <div class='step step-14' data-step='14'>
-            <p class="scroll-text step-14">14.	Doing this also gives health officials more information about where such events happen. We know that closed, crowded places with poor ventilation tend to lead to superspreading events, but in different countries different venues may be important. Finding out which and then closing them or making them safer is important. </p>
-          </div>
 
-          <!-- <div class='step step-15' data-step='15'>
+      <article>
+        <div class='step step-0' data-step='0'>
+
+          <p class="scroll-text step-0">You probably have heard of R by now. It denotes the number of people infected, on average, by a single infected person. If R is 2, the number of cases double in every generation: From 1</p>
+        </div>
+        <div class='step step-1' data-step='1'>
+          <!-- <p>STEP 2</p> -->
+          <p class="scroll-text step-1">to 2
+          </p>
+        </div>
+
+        <div class='step step-2' data-step='2'>
+
+          <p class="scroll-text step-2">to 4, to 8 infected people, and so on. </p>
+
+        </div>
+
+        <div class='step step-3' data-step='3'>
+
+          <p class="scroll-text step-3">Real life isn’t that neat</p>
+        </div>
+        <div class='step step-4' data-step='4'>
+
+          <p class="scroll-text step-4">One person may infect four people.</p>
+        </div>
+        <div class='step step-5' data-step='5'>
+          <p class="scroll-text step-5">Two of those may not transmit the disease to anyone else, but one of them transmits it to 21 others </p>
+        </div>
+        <div class='step step-6' data-step='6'>
+          <p class="scroll-text step-6">Of those 25, some may pass the virus on to one or two people. Many may not pass it on to anyone else. But perhaps one will pass it on 17 others.</p>
+        </div>
+        <div class='step step-7' data-step='7'>
+          <p class="scroll-text step-7">And so on. </p>
+        </div>
+        <div class='step step-8' data-step='8'>
+          <p class="scroll-text step-8">In most infectious diseases, most people infect no-one else and a small percentage of people leads to most of the transmission.</p>
+        </div>
+        <div class='step step-9' data-step='9'>
+          <p class="scroll-text step-9">How strong this pattern is depends on the virus. In the case of SARS-CoV-2 estimates suggest 10% percent of patients may be responsible for 90%of the spread. </p>
+        </div>
+
+        <div class='step step-10' data-step='10'>
+          <p class="scroll-text step-10">Choir practice in March in Washington State: 61 people attended, one was symptomatic. 53 people were infected, three were hospitalized, two died</p>
+        </div>
+        <div class='step step-11' data-step='11'>
+          <p class="scroll-text step-11">Church in Arkansas in March: 92 people attended, pastor and his wife were positive. 35 attendees infected, 3 died, 26 contact of these attendees infected, one died.
+            <br>
+            If a small minority of cases leads to most of the spread, then stopping these cases from transmitting should bring the epidemic under control. But how?
+          </p>
+
+
+        </div>
+        <div class='step step-12' data-step='12'>
+          <p class="scroll-text step-12">The following pages need to be updated. I will update them once I received new files from Nirja.</p>
+        </div>
+        <div class='step step-13' data-step='13'>
+          <p class="scroll-text step-13">So contact tracers should spend more time understanding where someone was infected and finding other people from the same cluster, health experts say. This is called backward contact tracing, and it could help
+            find more chains of transmission.</p>
+        </div>
+        <div class='step step-14' data-step='14'>
+          <p class="scroll-text step-14">14. Doing this also gives health officials more information about where such events happen. We know that closed, crowded places with poor ventilation tend to lead to superspreading events, but in different
+            countries different venues may be important. Finding out which and then closing them or making them safer is important. </p>
+        </div>
+
+        <!-- <div class='step step-15' data-step='15'>
             <p class="scroll-text step-15">And on..</p>
           </div>
           <div class='step step-16' data-step='16'>
@@ -184,13 +188,13 @@ o:300,400,400i,700" rel="stylesheet">
           <div class='step step-20' data-step='20'>
             <p class="scroll-text step-20">And on..</p>
           </div> -->
-          <!-- <div class='step step-21' data-step='21'>
+        <!-- <div class='step step-21' data-step='21'>
             <p class="scroll-text step-21">How strong this pattern is depends on the virus. In the case of SARS-CoV-2 estimates suggest 10% percent of patients may be responsible for 90%of the spread. </p>
           </div>
           <div class='step step-22' data-step='22'>
             <p class="scroll-text step-22">In most infectious diseases, most people infect no-one else and a small percentage of people leads to most of the transmission </p>
           </div> -->
-          <!-- <div class='step step-23' data-step='23'>
+        <!-- <div class='step step-23' data-step='23'>
             <p class="scroll-text step-23">In most infectious diseases, most people infect no-one else and a small percentage of people leads to most of the transmission </p>
           </div>
           <div class='step step-24' data-step='24'>
@@ -222,127 +226,129 @@ o:300,400,400i,700" rel="stylesheet">
             <p class="scroll-text step-31">Doing this also gives health officials more information about where such events happen. We know that closed, crowded places with poor ventilation tend to lead to superspreading events, but in different
               countries different venues may be important. Finding out which and then closing them or making them safer is important.</p>
           </div> -->
-        </article>
+      </article>
 
 
-      </section>
+    </section>
 
-    </main>
+  </main>
 
 
-      <main class=" s10 credit">
-        <div class="row">
+  <main class=" s10 credit">
+    <div class="row">
 
-          <div class="credit_content">
-            <div class="addthis_inline_share_toolbox_h50m"></div>
-            <p class="p-nomarginbottom"><strong>Producer and Web Developer:</strong> Xing Liu&nbsp;&nbsp;<strong>Supervising Producers:</strong> Alberto Cuadra, Beth Rakouskas&nbsp;<strong> Graphics Editor:</strong> Nirja Desai&nbsp;&nbsp;<strong>Editor:</strong> Martin Enserink, Kai Kupferschmidt
-            </p>
-          </div>
+      <div class="credit_content">
+        <div class="addthis_inline_share_toolbox_h50m"></div>
+        <p class="p-nomarginbottom"><strong>Producer and Web Developer:</strong> Xing Liu&nbsp;&nbsp;<strong>Supervising Producers:</strong> Alberto Cuadra, Beth Rakouskas&nbsp;<strong> Graphics Editor:</strong> Nirja
+          Desai&nbsp;&nbsp;<strong>Editor:</strong> Martin Enserink, Kai Kupferschmidt
+        </p>
+      </div>
 
+    </div>
+
+  </main>
+
+  <footer class="row--footer ">
+    <div class="container container--footer">
+      <div class="footer__header">
+        <div class="site-logo--footer">
+          <a href="//www.sciencemag.org/"><img src="img/logo-aaas.svg" alt="AAAS" class="logo--aaas"></a>
         </div>
+      </div>
+      <div class="footer__body">
+        <p class="copyright-statement">&copy; <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script> <a href="//www.aaas.org">American Association for the Advancement of Science</a>. All rights Reserved. AAAS is a partner of <a href="http://www.who.int/hinari/en/">HINARI</a>, <a href="http://www.fao.org/agora/en/">AGORA</a>, <a
+            href="http://www.unep.org/oare/">OARE</a>, <a href="http://www.patientinform.org/">PatientInform</a>, <a href="http://www.chorusaccess.org/">CHORUS</a>, <a href="http://www.clockss.org/">CLOCKSS</a>, <a
+            href="http://www.crossref.org/">CrossRef</a> and <a href="http://www.projectcounter.org/">COUNTER</a>.</p>
+        <ul class="footlinks">
+          <li><a href="//www.sciencemag.org/about/terms-service">Terms of Service</a></li>
+          <li><a href="//www.sciencemag.org/about/privacy-policy">Privacy Policy</a></li>
+          <li><a href="http://www.sciencemag.org/about/contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- <div class='debug'></div> -->
+  <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="stickyfill.min.js"></script>
+  <script src="scrollama.min.js"></script>
+  <script src="script.js"></script>
 
-      </main >
+  <script>
+    // // using d3 for convenience
+    // var main = d3.select("main");
+    // var scrolly = main.select("#scrolly");
+    // var figure = scrolly.select("figure");
+    // var article = scrolly.select("article");
+    // var step = article.selectAll(".step");
+    //
+    // // initialize the scrollama
+    // var scroller = scrollama();
+    //
+    // // generic window resize listener event
+    // function handleResize() {
+    //   // 1. update height of step elements
+    //   var stepH = Math.floor(window.innerHeight * 0.75);
+    //   step.style("height", stepH + "px");
+    //
+    //   var figureHeight = window.innerHeight / 2;
+    //   var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+    //
+    //   figure
+    //     .style("height", figureHeight + "px")
+    //     .style("top", figureMarginTop + "px");
+    //
+    //   // 3. tell scrollama to update new element dimensions
+    //   scroller.resize();
+    // }
+    //
+    // // scrollama event handlers
+    // function handleStepEnter(response) {
+    //   console.log(response);
+    //   // response = { element, direction, index }
+    //
+    //   // add color to current step only
+    //   step.classed("is-active", function(d, i) {
+    //     return i === response.index;
+    //   });
+    //
+    //   // update graphic based on step
+    //   figure.select("p").text(response.index + 1);
+    // }
+    //
+    // function setupStickyfill() {
+    //   d3.selectAll(".sticky").each(function() {
+    //     Stickyfill.add(this);
+    //   });
+    // }
+    //
+    // function init() {
+    //   setupStickyfill();
+    //
+    //   // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+    //   handleResize();
+    //
+    //   // 2. setup the scroller passing options
+    //   // 		this will also initialize trigger observations
+    //   // 3. bind scrollama event handlers (this can be chained like below)
+    //   scroller
+    //     .setup({
+    //       step: "#scrolly article .step",
+    //       offset: 0.33,
+    //       debug: true
+    //     })
+    //     .onStepEnter(handleStepEnter);
+    //
+    //   // setup resize event
+    //   window.addEventListener("resize", handleResize);
+    // }
+    //
+    // // kick things off
+    // init();
+  </script>
+</body>
 
-        <footer class="row--footer ">
-          <div class="container container--footer">
-            <div class="footer__header">
-              <div class="site-logo--footer">
-                <a href="//www.sciencemag.org/"><img src="img/logo-aaas.svg" alt="AAAS" class="logo--aaas"></a>
-              </div>
-            </div>
-            <div class="footer__body">
-              <p class="copyright-statement">&copy; <script type="text/javascript">
-                  document.write(new Date().getFullYear());
-                </script> <a href="//www.aaas.org">American Association for the Advancement of Science</a>. All rights Reserved. AAAS is a partner of <a href="http://www.who.int/hinari/en/">HINARI</a>, <a href="http://www.fao.org/agora/en/">AGORA</a>, <a
-                  href="http://www.unep.org/oare/">OARE</a>, <a href="http://www.patientinform.org/">PatientInform</a>, <a href="http://www.chorusaccess.org/">CHORUS</a>, <a href="http://www.clockss.org/">CLOCKSS</a>, <a
-                  href="http://www.crossref.org/">CrossRef</a> and <a href="http://www.projectcounter.org/">COUNTER</a>.</p>
-              <ul class="footlinks">
-                <li><a href="//www.sciencemag.org/about/terms-service">Terms of Service</a></li>
-                <li><a href="//www.sciencemag.org/about/privacy-policy">Privacy Policy</a></li>
-                <li><a href="http://www.sciencemag.org/about/contact-us">Contact Us</a></li>
-              </ul>
-            </div>
-          </div>
-        </footer>
-    <!-- <div class='debug'></div> -->
-    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
-    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="stickyfill.min.js"></script>
-    <script src="scrollama.min.js"></script>
-     <script src="script.js"></script>
-
-    <script>
-      // // using d3 for convenience
-      // var main = d3.select("main");
-      // var scrolly = main.select("#scrolly");
-      // var figure = scrolly.select("figure");
-      // var article = scrolly.select("article");
-      // var step = article.selectAll(".step");
-      //
-      // // initialize the scrollama
-      // var scroller = scrollama();
-      //
-      // // generic window resize listener event
-      // function handleResize() {
-      //   // 1. update height of step elements
-      //   var stepH = Math.floor(window.innerHeight * 0.75);
-      //   step.style("height", stepH + "px");
-      //
-      //   var figureHeight = window.innerHeight / 2;
-      //   var figureMarginTop = (window.innerHeight - figureHeight) / 2;
-      //
-      //   figure
-      //     .style("height", figureHeight + "px")
-      //     .style("top", figureMarginTop + "px");
-      //
-      //   // 3. tell scrollama to update new element dimensions
-      //   scroller.resize();
-      // }
-      //
-      // // scrollama event handlers
-      // function handleStepEnter(response) {
-      //   console.log(response);
-      //   // response = { element, direction, index }
-      //
-      //   // add color to current step only
-      //   step.classed("is-active", function(d, i) {
-      //     return i === response.index;
-      //   });
-      //
-      //   // update graphic based on step
-      //   figure.select("p").text(response.index + 1);
-      // }
-      //
-      // function setupStickyfill() {
-      //   d3.selectAll(".sticky").each(function() {
-      //     Stickyfill.add(this);
-      //   });
-      // }
-      //
-      // function init() {
-      //   setupStickyfill();
-      //
-      //   // 1. force a resize on load to ensure proper dimensions are sent to scrollama
-      //   handleResize();
-      //
-      //   // 2. setup the scroller passing options
-      //   // 		this will also initialize trigger observations
-      //   // 3. bind scrollama event handlers (this can be chained like below)
-      //   scroller
-      //     .setup({
-      //       step: "#scrolly article .step",
-      //       offset: 0.33,
-      //       debug: true
-      //     })
-      //     .onStepEnter(handleStepEnter);
-      //
-      //   // setup resize event
-      //   window.addEventListener("resize", handleResize);
-      // }
-      //
-      // // kick things off
-      // init();
-    </script>
-  </body>
 </html>
