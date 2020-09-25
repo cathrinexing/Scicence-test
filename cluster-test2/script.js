@@ -20,11 +20,11 @@ figure.append('img').attr('class', 'step-2').attr('opacity', 0)
 
 
 figure.append('img').attr('class', 'step-3').attr('opacity', 0)
-  .attr("src", "img/" + "step-3" + ".png")
+  .attr("src", "img/" + "step-3" + ".jpg")
 
 
 figure.append('img').attr('class', 'step-4').attr('opacity', 0)
-  .attr("src", "img/" + "step-4" + ".jpg")
+  .attr("src", "img/" + "step-4" + ".png")
 
 figure.append('img').attr('class', 'step-5').attr('opacity', 0)
   .attr("src", "img/" + "step-5" + ".png")
@@ -36,7 +36,7 @@ figure.append('img').attr('class', 'step-7').attr('opacity', 0).attr("src", "img
 
 figure.append('img').attr('class', 'step-8').attr('opacity', 0).attr("src", "img/" + "step-8" + ".png")
 
-figure.append('img').attr('class', 'step-9').attr('opacity', 0).attr("src", "img/" + "step-9" + ".png")
+figure.append('img').attr('class', 'step-9').attr('opacity', 0).attr("src", "img/" + "step-9" + ".gif")
 figure.append('img').attr('class', 'step-10').attr('opacity', 0).attr("src", "img/" + "step-10" + ".jpg")
 figure.append('img').attr('class', 'step-11').attr('opacity', 0).attr("src", "img/" + "step-11" + ".gif")
 
