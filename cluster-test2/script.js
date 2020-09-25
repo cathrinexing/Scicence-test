@@ -37,7 +37,7 @@ figure.append('img').attr('class', 'step-7').attr('opacity', 0).attr("src", "img
 figure.append('img').attr('class', 'step-8').attr('opacity', 0).attr("src", "img/" + "step-8" + ".png")
 
 figure.append('img').attr('class', 'step-9').attr('opacity', 0).attr("src", "img/" + "step-9" + ".gif")
-figure.append('img').attr('class', 'step-10').attr('opacity', 0).attr("src", "img/" + "step-10" + ".jpg")
+figure.append('img').attr('class', 'step-10').attr('opacity', 0).attr("src", "img/" + "step-10" + ".gif")
 figure.append('img').attr('class', 'step-11').attr('opacity', 0).attr("src", "img/" + "step-11" + ".gif")
 
 figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "img/" + "step-12" + ".png")
