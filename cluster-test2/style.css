@@ -3475,22 +3475,23 @@ hr {
   text-align: center;
   color: #000
 }
+.cover_content h1 {
+    font-weight: 400;
+    line-height: 0.9;
+}
+.cover_content {
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  top:45%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  color: black;
+  margin-bottom: 1em;
+}
 
-/* .cover_video {
 
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;} */
 
 
 .cover_video{
@@ -3768,19 +3769,4 @@ opacity: 1;
 
 .imgbase{
   opacity: 1 !important;
-}
-
-.cover_content h1 strong {
-    font-weight: 400;
-}
-.cover_content {
-  position: relative;
-  width: 100%;
-  margin-top: 0;
-  top:45%;
-  padding-left: 3%;
-  padding-right: 3%;
-  text-align: center;
-  color: black;
-  margin-bottom: 1em;
 }
