@@ -3634,6 +3634,13 @@ animation: fadeOut ease 1s;
 }
 
 
+.scrollama__debug-offset{
+  display: none;
+}
+
+.imgbase{
+  opacity: 1 !important;
+}
 
 
 .scroll-text{
@@ -3742,12 +3749,4 @@ opacity: 1;
 60%{opacity:0.4;}
 80%{opacity:0.2;}
 100% {opacity:0;}
-}
-
-.scrollama__debug-offset{
-  display: none;
-}
-
-.imgbase{
-  opacity: 1 !important;
 }
