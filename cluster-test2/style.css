@@ -3519,7 +3519,7 @@ left: 0;
 
 .cover_content h1 strong {
   font-weight: 400;
-  line-height: 1 !important;
+  line-height: 0.5 !important;
 }
 .byline {
   text-align: center;
