@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Timeline</title>
+  <!-- <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Robot
+  o:300,400,400i,700" rel="stylesheet">
+
+
+	<link href="css/jquery.timespace.light.css" rel="stylesheet">
+			<link href="css/out.css" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="jquery.timespace.js?v2"></script> -->
+
+</head>
+<body>
+  <!-- <div id="jquery-script-menu">
+<div class="jquery-script-center">
+</div>
+<div class="jquery-script-clear"></div>
+</div> -->
+
+  <!-- <h1></h1> -->
+	<!-- <h2>24-Hour Timeline</h2> -->
+	<!-- <div id="timelineClock"></div>
+	<h2>Event Timeline</h2> -->
+	<div id="timeline"></div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.timespace.js"></script>
+<script>
+	$(function () {
+
+
+		$('#timeline').timespace({
+
+			timeType: 'date',
+			useTimeSuffix: false,
+			startTime: 1550,
+			endTime: 2100,
+			markerIncrement: 50,
+			data: {
+				// headings: [
+				// 	{start: 500, end: 1750, title: 'Dark Ages'},
+				// 	{start: 1750, end: 1917, title: 'Age of Revolution'},
+				// 	{start: 1971, title: 'Information Age'},
+				// ],
+				events: [
+					// {start: 1440, title: 'Gutenberg\'s Printing Press', width: 200},
+					// {start: 1517, end: 1648, title: 'The Reformation',
+					// 	description: $('<p>The Reformation was a turning point in the history of the world. '
+					// 		+ 'Martin Luther was a key player in this event as he stood up against Papal tyranny '
+					// 		+ 'and church apostasy.</p><p>Many other reformers followed in the steps of Luther '
+					// 		+ 'and followed the convictions of their hearts, even unto death.</p>')},
+					// {start: 1773, title: 'Boston Tea Party'},
+					// {start: 1775, end: 1783, title: 'American Revolution', description: 'Description:', callback: function () {
+					//
+					// 	this.container.find('.jqTimespaceDisplay section').append(
+					// 		'<p>This description was brought to you by the callback function. For information on the American Revolution, '
+					// 		+ '<a target="_blank" href="https://en.wikipedia.org/wiki/American_Revolution">visit the Wikipedia page.</a></p>'
+					// 	);
+					//
+					// }},
+					{start: 1609, title: 'title1 hello', description: 'description1 description1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
+					// {start: 1914, end: 1918, title: 'World War I', noDetails: true},
+					{start: 1814, end: 1918, title: 'title2 hello', description:'description2 description2 description2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna henderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
+					{start: 1814, end: 1918, title: 'title3 hello', description:'description3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
+					{start: 1814, end: 1918, title: 'title4 hello', description:'description4  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'},
+					{start: 1929, end: 1939, title: 'title5 hello',
+						description: 'description5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+					},
+					{start: 2000, end: 2003, title: 'title6 hello',
+						description: 'description6 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..'
+					},
+				]
+			},
+
+		}, function () {
+
+			// Edit the navigation amount
+			this.navigateAmount = 500;
+
+		});
+
+	});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

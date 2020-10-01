@@ -1,0 +1,79 @@
+
+body {
+	margin: auto;
+	/* width: 885px; */
+	font: 10px arial;
+	padding: 25px;
+	background-color: blue;
+}
+
+.y-axis line {
+	opacity: .2;
+}
+
+.y-axis path {
+	display: none;
+}
+
+.line {
+	fill: none;
+	stroke-width: 1.5px;
+	opacity: .75;
+}
+
+.overlay {
+
+	fill: none;
+	pointer-events: all;
+}
+
+.lineHoverText {
+	text-shadow:
+		/* -2px -2px 0 #fff,
+		2px -2px 0 #fff,
+		-2px 2px 0 #fff,
+		2px 2px 0 #fff; */
+
+
+}
+
+
+
+.hoverCircle {
+	opacity: .75;
+}
+
+.focus {}
+
+#selectbox {
+	display: none;
+}
+
+/* .hoverCircle{
+		display: none;
+} */
+#chart {
+	background-color: pink;
+	width:100%;
+	/* max-width: 700px; */
+}
+
+
+.tick text{
+	font-size: 14px!important
+}
+/* .svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+} */
+
+/* .svg-content {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+} */

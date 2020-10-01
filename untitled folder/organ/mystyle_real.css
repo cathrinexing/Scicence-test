@@ -1,0 +1,99 @@
+
+html {
+  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-sereif !important;
+}
+.body{
+ padding-top: 0 !important;
+}
+
+.section_organ {
+
+
+
+}
+
+#row_graphic{
+
+  max-width: 700px;
+
+   /* margin: 0 !important; */
+  /* height:600px; */
+  background-color: #E0E0E0;
+  position: relative;
+}
+
+#graphic_individuals_left {
+  /* background-color: pink; */
+  /* overflow: hidden; */
+  max-width: 100%;
+    /* height:auto;
+min-height: 600px; */
+/* height: 700px; */
+   /* background-image: url('img/body.jpg'); */
+}
+
+.layers,
+.bkg_img{
+
+  position: absolute;
+  top:0px;
+  left:0px;
+padding-left: 15px;
+padding-right: 15px;
+  overflow: hidden;
+  max-width: 100%;
+height:auto;
+  /* min-height:100%; */
+  display: block;
+}
+
+.base_img{
+
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  max-width: 100%;
+height:auto;
+  display: block;
+}
+
+
+
+.card {
+  z-index: 50;
+}
+.card-header {
+  text-align: center;
+}
+
+.btn-link {
+  width: 100%;
+}
+
+.brain_img {
+  opacity: 0;
+}
+
+.eyes_img,
+.nose_img,
+.lungs_img,
+.heart_img,
+.liver_img,
+.kidneys_img,
+.gut_img {
+  opacity: 0;
+}
+
+.topLayer_img {
+  opacity: 1 !important;
+  z-index: 20000000;
+}
+.card-body {
+  padding: 0.5rem;
+
+}
+@media only screen and (max-width: 600px) {
+  .card-body {
+
+     font-size: 14px;
+  }

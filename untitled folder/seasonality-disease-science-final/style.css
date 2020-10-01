@@ -1,0 +1,383 @@
+.interactive {
+  width: 100%;
+  position: relative;
+  max-width: 700px;
+  text-align: center;
+  /* font-family: 'Benton Sans Cond', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+
+
+  font-family: Roboto Condensed, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#interactive svg {
+  padding-bottom: 15px;
+}
+
+.interactive_container {
+  position: relative;
+  max-width: 700px;
+  text-align: center;
+}
+
+/* #header {
+        width: 30%;
+        position: absolute;
+        height: 20%;
+        min-height: 250px;
+        top: 3.5%;
+        right: 0%;
+        margin-right: 10px;
+    }
+
+    #header h4 {
+        margin-bottom: .5em;
+        font-size: 12pt;
+    }
+
+    #header svg {
+        padding-top: 0px;
+    } */
+#header {
+  width: 30%;
+  position: absolute;
+  height: 20%;
+  min-height: 150px;
+  top: -5%;
+  right: 0%;
+  margin-right: 10px;
+}
+
+#header h4 {
+  margin-bottom: -6em;
+  font-size: 12pt;
+}
+
+#header svg {
+  padding-top: -20px;
+}
+
+.timeline {
+  /* stroke: #ccc; */
+  stroke-width: 3px;
+  stroke-linecap: round;
+}
+
+/* .timedot {
+        stroke: #005E7F;
+        stroke-width: 2px;
+        fill: white;
+    } */
+.timedot:hover {
+  stroke: #9CCDE4;
+  stroke-width: 4px;
+  fill: white;
+}
+
+.guide {
+  stroke: #ccc;
+  stroke-width: 1px;
+  stroke-dasharray: 3, 3;
+}
+
+.guidev,
+.guidev1,
+.guidev2,
+.guidev3,
+.guidev4,
+.guidev5,
+.guidev6,
+.guidev7,
+.guidev8,
+.guidev9,
+.guidev10,
+.guidev11,
+.guidev12 {
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-width: 2px;
+  stroke-dasharray: 3, 3;
+  z-index: -1000;
+}
+
+.guide2,
+.guide3,
+.addline {
+  stroke-width: 2px;
+  /* stroke-dasharray: 3, 3; */
+  z-index: -1000;
+}
+
+.guide2,
+.guide3 {
+  stroke: rgba(169, 169, 169, 0.2);
+  stroke-width: 2px;
+  /* stroke-dasharray: 3, 3; */
+  z-index: -1000;
+}
+
+.addline {
+  stroke: rgba(0, 0, 0, 1);
+  stroke-width: 1px;
+  /* stroke-dasharray: 3, 3; */
+  z-index: -1000;
+}
+
+.guides,
+.guides1,
+.guides4,
+.guides7,
+.guides10  {
+  stroke: rgba(0, 0, 0, 1);
+  /* stroke-width: 20px; */
+  /* stroke-dasharray: 3, 3; */
+  z-index: -1000;
+}
+
+.yr-txt {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-anchor: start;
+  font-size: 11pt;
+  font-weight: bold;
+  text-rendering: geometricPrecision;
+  shape-rendering: crispEdges;
+  background-color: white;
+  /* text-rendering: geometricPrecision;
+  stroke-width: 0;
+  offset:0.5px; */
+stroke:  white;
+  stroke-width: .2;
+  /* fill: red  !important; */
+/* -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px; */
+}
+
+text{
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  /* fill: red  !important; */
+  /* -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px; */
+  /* -webkit-text-stroke: 1px white; */
+  /* stroke: none !important; */
+  /* font-smooth: 2em!important; */
+    /* text-rendering: geometricPrecision!important; */
+    /* offset: 0.5px; */
+    /* transform:rotate(0.001deg); */
+
+}
+
+.yr-txt2,
+.yr-txt3 {
+  stroke:  white;
+    stroke-width: .2;
+
+  text-rendering: geometricPrecision;
+  shape-rendering: crispEdges;
+  text-rendering: geometricPrecision;
+  text-anchor: start;
+  font-size: 11pt;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*
+        alignment-baseline: middle; */
+}
+
+.col-txt {
+  text-anchor: middle;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.col-txt2 {
+  text-anchor: middle;
+  font-size: 12pt;
+  font-weight: bold;
+  border-bottom: 20px solid black;
+  /* display: inline-block;
+        line-height: 0.85; */
+  /* text-decoration:underline; */
+  /* text-underline-offset: 0.3em; */
+  /* text-decoration-thickness: 2px; */
+}
+
+.underline {
+  border-bottom: 20px solid black;
+  display: inline-block;
+  line-height: 0.85;
+}
+
+.circle {
+  fill: #005E7F;
+  /* opacity: .2; */
+}
+
+.v-cover {
+  fill: white;
+}
+
+.v-circle {
+  fill: #F68B28;
+  opacity: .6;
+}
+
+.hover {
+  fill: #F68B28;
+}
+
+.g-circle:hover {
+  stroke: black
+    /* opacity: 1.2;
+          background-color: yellow; */
+    /* fill:#F68B28; */
+}
+
+.circle:hover {
+  fill: #F68B28;
+  /* opacity: 1.2; */
+}
+
+.v-circle:hover {
+  opacity: .9;
+}
+
+.scale-hed {
+  text-anchor: start;
+  font-size: 11.5pt;
+}
+
+.scale circle {
+  fill: none;
+  stroke: #005E7F;
+  opacity: 1;
+}
+
+.scale text {
+  font-size: 10pt;
+}
+
+.scale line {
+  stroke: #999;
+  stroke-width: 1px;
+}
+
+.d3-tip {
+  font-family: Roboto Condensed, Helvetica Neue, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+  padding: 10px;
+  background: rgba(0, 37, 50, 0.8);
+  color: #fff;
+  border-radius: 5px;
+  max-width: 200px;
+  word-wrap: break-word;
+  pointer-events: none;
+}
+
+.d3-tip p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* .d3-tip:after {
+        box-sizing: border-box;
+        display: inline;
+        font-size: 18px;
+        width: 100%;
+        line-height: 1;
+        color: rgba(0, 37, 50, 0.7);
+        content: "\25BC";
+        position: absolute;
+        text-align: center;
+        margin-left: -10px;
+        margin-top: 6px;
+    } */
+@media only screen and (max-width: 768px) {
+
+  .col-txt,
+  .col-txt2 {
+    font-size: 10pt;
+  }
+
+  #header {
+    top: 2%;
+  }
+
+  #header h4,
+  .scale-hed,
+  .yr-txt .yr-txt2,
+  .yr-txt3,
+  .addtext {
+    font-size: 11pt;
+  }
+
+  .scale text {
+    font-size: 8pt;
+  }
+
+  .d3-tip p {
+    font-size: 10pt;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .timedot, .timeline, .g-hkey text {
+    display: none;
+  }
+
+  /*.col-txt {*/
+  /*    font-size: 8.5pt;*/
+  /*}*/
+  /*#header {*/
+  /*    width: 35%;*/
+  /*    top: 2%;*/
+  /*}*/
+  /*#header h4,*/
+  /*.scale-hed,*/
+  /*.yr-txt {*/
+  /*    font-size: 8pt;*/
+  /*}*/
+  /*.scale text {*/
+  /*    font-size: 7pt;*/
+  /*}*/
+  /*.d3-tip p {*/
+  /*font-size: 8pt;*/
+  /*}*/
+  .d3-tip {
+    max-width: 90px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .timedot, .timeline, .g-hkey text, .diph {
+    display: none;
+  }
+
+  .col-txt2 {
+    font-size: 8pt;
+  }
+
+  .col-txt {
+    font-size: 7pt;
+  }
+
+  #header {
+    width: 35%;
+    top: 2%;
+  }
+
+  #header h4,
+  .scale-hed,
+  .yr-txt,
+  .yr-txt2,
+  .yr-txt3,
+  .addtext {
+    font-size: 8pt;
+  }
+
+  .scale text {
+    font-size: 6pt;
+  }
+
+  .d3-tip p {
+    font-size: 8pt;
+  }
+}
