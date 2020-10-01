@@ -3100,7 +3100,7 @@ position: absolute;
 
 @media (min-width:1200px) {
   .cover_content h1 strong {
-    font-size: 100px;
+    font-size: 110px;
     line-height: .9
   }
   .cover_dek {
@@ -3114,7 +3114,7 @@ position: absolute;
     line-height: 1.1;
   }
   .cover_content {
-    margin-top: -8.5em
+      top: 65%;
   }
 
   .timeline_container li p {
@@ -3123,6 +3123,9 @@ position: absolute;
 }
 
 @media (min-width:1600px) {
+  .cover_content {
+    /* margin-top: -8.5em */
+  }
   .cover_content h1 strong {
     font-size: 120px;
     line-height: .9
@@ -3539,4 +3542,9 @@ left: 0;
      font-size: 1em;
     font-weight: 400;
     font-style: normal;
+}
+
+.cover_content {
+  /* width:60%;
+  max-width:700px; */
 }
