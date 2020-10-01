@@ -2886,15 +2886,15 @@ section {
 
   .cover_content h1 {
     font-size: 60px;
-    padding: 20px 0;
+
     color: black;
     text-shadow: none;
   }
 
   .cover_content h1 strong {
-    font-size: 50px;
-    line-height: 1;
-    /* padding: 10px 0; */
+    font-size: 60px;
+    line-height: 20px;
+/*    padding: -100px 0; */
     color: black;
     text-shadow: none;
   }
@@ -3772,4 +3772,15 @@ opacity: 1;
 
 .cover_content h1 strong {
     font-weight: 400;
+}
+.cover_content {
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+  top:45%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  color: black;
+  margin-bottom: 1em;
 }
