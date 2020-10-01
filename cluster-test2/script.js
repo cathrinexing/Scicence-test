@@ -4,7 +4,6 @@ var figure = scrolly.select("figure");
 var article = scrolly.select("article");
 var step = article.selectAll(".step");
 
-// initialize the scrollama
 var scroller = scrollama();
 
 
@@ -44,44 +43,6 @@ figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "im
 
 figure.append('img').attr('class', 'step-13').attr('opacity', 0).attr("src", "img/" + "step-13" + ".png")
 
-// figure.append('img').attr('class', 'step-14').attr('opacity', 0).attr("src", "img/" + "step-14" + ".gif")
-
-// figure.append('img').attr('class', 'step-15').attr('opacity', 0).attr("src", "img/" + "step-15" + ".png")
-//
-// figure.append('img').attr('class', 'step-16').attr('opacity', 0).attr("src", "img/" + "step-16" + ".png")
-// figure.append('img').attr('class', 'step-17').attr('opacity', 0).attr("src", "img/" + "step-17" + ".png")
-//
-// figure.append('img').attr('class', 'step-18').attr('opacity', 0).attr("src", "img/" + "step-18" + ".png")
-//
-// figure.append('img').attr('class', 'step-19').attr('opacity', 0).attr("src", "img/" + "step-19" + ".png")
-// figure.append('img').attr('class', 'step-20').attr('opacity', 0).attr("src", "img/" + "step-20" + ".png")
-
-// figure.append('img').attr('class', 'step-21').attr('opacity', 0).attr("src", "img/" + "step-21" + ".jpg")
-//
-// figure.append('img').attr('class', 'step-22').attr('opacity', 0).attr("src", "img/" + "step-22" + ".jpg")
-//
-// figure.append('img').attr('class', 'step-23').attr('opacity', 0).attr("src", "img/" + "step-23" + ".png")
-//
-// figure.append('img').attr('class', 'step-24').attr('opacity', 0).attr("src", "img/" + "step-24" + ".png")
-//
-// figure.append('img').attr('class', 'step-25').attr('opacity', 0).attr("src", "img/" + "step-25" + ".png")
-//
-// figure.append('img').attr('class', 'step-26').attr('opacity', 0).attr("src", "img/" + "step-26" + ".jpg")
-// figure.append('img').attr('class', 'step-27').attr('opacity', 0).attr("src", "img/" + "step-27" + ".png")
-//
-// figure.append('img').attr('class', 'step-28').attr('opacity', 0).attr("src", "img/" + "step-28" + ".png")
-//
-// figure.append('img').attr('class', 'step-29').attr('opacity', 0).attr("src", "img/" + "step-29" + ".png")
-// figure.append('img').attr('class', 'step-30').attr('opacity', 0).attr("src", "img/" + "step-30" + ".png")
-// figure.append('img').attr('class', 'step-31').attr('opacity', 0).attr("src", "img/" + "step-31" + ".png")
-//
-
-
-
-
-
-
-
 
 // generic window resize listener event
 function handleResize() {
@@ -109,13 +70,7 @@ function handleStepEnter(response) {
   // response = { element, direction, index }
   response.element.classList.add('is-active');
 
-  // add color to current step only
-  // step.classed("is-active", function(d, i) {
-  //   return i === response.index;
-  // });
 
-  // update graphic based on step
-  // figure.select("p").text(response.index + 1).attr('color',"green");
 
   if (response.direction == 'down') figure.select('.step-' + response.index).style('opacity', 0).transition().duration(1000).ease(d3.easeLinear).style("opacity", 1);
 
@@ -151,11 +106,6 @@ function handleStepProgress(response) {
 
 
 
-// setTimeout(function() {
-//     setInterval(function() {
-//         $('img').attr('src',$('img').attr('src'))
-//     },1)
-// }, 2000)
 
 
 function setupStickyfill() {
