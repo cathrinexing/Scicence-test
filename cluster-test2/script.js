@@ -103,11 +103,6 @@ function handleStepProgress(response) {
 
 }
 
-
-
-
-
-
 function setupStickyfill() {
   d3.selectAll(".sticky").each(function() {
     Stickyfill.add(this);
