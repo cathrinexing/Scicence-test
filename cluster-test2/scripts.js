@@ -17,7 +17,7 @@ figure.append('img').attr('class', 'step-0').attr('opacity', 0).attr("src", "img
 
 
 figure.append('img').attr('class', 'step-1').attr('opacity', 0)
-  .attr("src", "img/" + "step-1" + ".png")
+  .attr("src", "img/" + "step-1" + ".gif")
 
 
 figure.append('img').attr('class', 'step-2').attr('opacity', 0)
@@ -32,7 +32,7 @@ figure.append('img').attr('class', 'step-4').attr('opacity', 0)
   .attr("src", "img/" + "step-4" + ".png")
 
 figure.append('img').attr('class', 'step-5').attr('opacity', 0)
-  .attr("src", "img/" + "step-5" + ".jpg")
+  .attr("src", "img/" + "step-5" + ".png")
 
 figure.append('img').attr('class', 'step-6').attr('opacity', 0)
   .attr("src", "img/" + "step-6" + ".gif")
@@ -49,6 +49,12 @@ figure.append('img').attr('class', 'step-12').attr('opacity', 0).attr("src", "im
 
 figure.append('img').attr('class', 'step-13').attr('opacity', 0).attr("src", "img/" + "step-13" + ".png")
 
+figure.append('img').attr('class', 'step-14').attr('opacity', 0).attr("src", "img/" + "step-11" + ".gif")
+
+figure.append('img').attr('class', 'step-15').attr('opacity', 0).attr("src", "img/" + "step-12" + ".gif")
+
+figure.append('img').attr('class', 'step-16').attr('opacity', 0).attr("src", "img/" + "step-13" + ".gif")
+
 
 // generic window resize listener event
 function handleResize() {
@@ -57,7 +63,7 @@ function handleResize() {
   step.style("height", stepH + "px");
 
   var figureHeight = window.innerHeight;
-  // var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+
   var figureMarginTop = 0;
 
 
